@@ -125,12 +125,12 @@ header li a:hover{
 }
 
 .business-plane-center .column {
-   width: calc(990px / 3);
+   width: calc(1080px / 3 - 4%);
    height: 1300px;
    background-color: #004DCC;
 }
 
 .column.standard {
-   margin: 0 auto;
+   margin: 0 2%;
 }
 /* ****** FOOTER ****** */
