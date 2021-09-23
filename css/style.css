@@ -9,7 +9,7 @@ body {
    font-family: 'Open Sans', sans-serif;
 }
 
-.clearfix {
+.clearfix::after {
    content: '';
    display: table;
    clear: both;
@@ -30,7 +30,7 @@ section {
 
 .container-70 {
    width: 70%;
-   max-width: 1080;
+   max-width: 1080px;
 }
 
 ul {
@@ -38,11 +38,11 @@ ul {
    display: inline-block;
 }
 /* Area Float */
-.header-left, .column {
+.float-left {
    float: left;
 }
 
-.header-right {
+.float-right {
    float: right;
 }
 
@@ -80,7 +80,7 @@ header li a {
 }
 
 header li a:hover{
-   border-bottom: 3px solid #000;
+   border-bottom: 5px solid #000;
 }
 
 /* header left section  */
@@ -116,21 +116,28 @@ header li a:hover{
 
 .business-plane-top {
    height: 150px;
-   margin-bottom: 40px;
+   margin: 0 2% 40px 2%;
    background-color: #004DCC;
 }
 
 .business-plane-center {
-   margin-bottom: 40px;
+   padding-bottom: 40px;
+
 }
 
 .business-plane-center .column {
-   width: calc(1080px / 3 - 4%);
-   height: 1300px;
+   width: calc(100% / 3 - 4%);
+   height: 400px;
+   margin: 0 2%;
    background-color: #004DCC;
 }
 
-.column.standard {
-   margin: 0 2%;
+.business-plane-bottom {
+   height: 300px;
+   margin: 0 2% 40px;
+   background-color: #004DCC; 
 }
+
+/* Find Partner */
+
 /* ****** FOOTER ****** */
