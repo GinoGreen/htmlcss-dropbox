@@ -116,7 +116,7 @@ header li a:hover{
 
 .business-plane-top {
    height: 150px;
-   margin: 0 2% 40px 2%;
+   margin-bottom: 40px;
    background-color: #004DCC;
 }
 
@@ -134,10 +134,32 @@ header li a:hover{
 
 .business-plane-bottom {
    height: 300px;
-   margin: 0 2% 40px;
+   margin-bottom: 40px;
    background-color: #004DCC; 
 }
 
 /* Find Partner */
+.find-partner {
+   height: 400px;
+   margin-bottom: 40px;
+   background-color: violet;
+}
 
+/* Business Explain */
+.business-explain {
+   height: 700px;
+   margin-bottom: 40px;
+   background-color: tan;
+}
+
+.row {
+   margin: 20px 0;
+}
+
+.row .box {
+   height: 300px;
+   width: calc(100% / 3 - 4%);
+   margin: 0 2%;
+   background-color: peru;
+}
 /* ****** FOOTER ****** */
