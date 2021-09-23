@@ -55,12 +55,11 @@ ul {
 
 /* ****** HEADER ****** */
 header {
-   min-width: 1280px;
+   min-width: 1300px;
    width: 100vw;
-   padding: 0 20px;
+   padding: 0 40px 0 20px;
    position: fixed;
    top: 0;
-   right: 0;
    background-color: #fff;
 }
 
@@ -86,10 +85,12 @@ header li a:hover{
 /* header left section  */
 .logo img {
    width: 155px;
-   margin-right: 30px;
    vertical-align: middle;
 }
 
+.logo {
+   margin-right: 30px;
+}
 
 /* header right section  */
 .header-right > a{
@@ -162,4 +163,37 @@ header li a:hover{
    margin: 0 2%;
    background-color: peru;
 }
+
+/* Team Partner */
+.team-partner {
+   margin-bottom: 50px;
+}
+
+.team-partner-top {
+   padding: 70px 0 30px 0;
+}
+
+.team-partner-bottom {
+   height: 800px;
+   margin-bottom: 50px;
+   background-color: #B4D0E7;
+}
+
+.team-partner-bottom > div {
+   width: calc(100% / 3);
+   height: 600px;
+}
+
+.team-partner-center {
+   background-color: lightgray;
+}
+
+.team-partner-left {
+   background-color: yellow;
+}
+
+.team-partner-right {
+   background-color: red;
+}
+
 /* ****** FOOTER ****** */
