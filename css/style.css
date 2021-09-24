@@ -189,9 +189,9 @@ header li a:hover{
 }
 
 .column-title {
-   padding: 20px;
    font-size: 22px;
    border: 1px solid #DBDBDD;
+   text-align: center;
 }
 
 .column-content {
