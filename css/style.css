@@ -48,6 +48,14 @@ a {
    color: black;
 }
 
+.bold {
+   font-weight: bold;
+}
+
+.gray {
+   color: #768490;
+}
+
 /* Area Float */
 .float-left {
    float: left;
@@ -67,7 +75,7 @@ a {
 }
 
 .btn.big {
-   padding: 12px 32px;
+   padding: 12px 30px;
 }
 
 /* ****** HEADER ****** */
@@ -154,26 +162,94 @@ header li a:hover{
    background-color: #B4D0E7;
 }
 
-.business-plane-top {
-   height: 150px;
-   margin-bottom: 40px;
-   background-color: #004DCC;
+.business-plane-top h2 {
+   padding: 0 0 30px;
+   font-size: 36px;
+}
+
+.radiobox label {
+   padding-right: 20px;
 }
 
 .business-plane .clearfix {
-   padding-bottom: 40px;
-
+   padding: 40px 0;
 }
 
-.business-plane-center .column {
-   width: calc(100% / 3 - 60px);
-   height: 400px;
-   background-color: #004DCC;
+.clearfix .column {
+   width: calc(100% / 3 - 20px);
+}
+
+.column span {
+   padding: 10px 0;
+   display: block;
 }
 
 .column.standard {
    margin: 0 30px;
 }
+
+.column-title {
+   padding: 20px;
+   font-size: 22px;
+   border: 1px solid #DBDBDD;
+}
+
+.column-content {
+   padding: 30px;
+   border: 1px solid #DBDBDD;
+}
+
+.content-title h3 {
+   font-size: 30px;
+}
+
+.else a {
+   text-decoration: underline;
+   color: #0061FF;
+}
+
+.content-description {
+   height: 1300px;
+}
+
+.content-description .btn {
+   padding: 12px 20px;
+   display: block;
+}
+
+.plane-point h4 {
+   padding-bottom: 15px;
+   font-size: 24px;
+}
+
+.icon::before {
+   padding-right: 5px;
+   font-size: 25px;
+   vertical-align: middle;
+}
+
+.user.icon::before {
+   content: '\f007';
+}
+
+.archiving.icon::before {
+   content: '\f07c';
+}
+
+.function.icon::before {
+   content: '\f303';
+}
+
+.check.icon::before {
+   content: '\2714';
+   color: #0061FF;
+}
+
+
+.content-description .block {
+   padding: 50px 0;
+}
+
 
 .business-plane-bottom {
    height: 300px;
