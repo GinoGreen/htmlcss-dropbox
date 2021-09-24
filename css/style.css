@@ -25,7 +25,7 @@ section {
 }
 
 .container-70, .container-80 {
-   margin: auto;
+   margin: 150px auto;
 }
 
 .container-80 {
@@ -36,6 +36,14 @@ section {
 .container-70 {
    width: 70%;
    max-width: 1080px;
+}
+
+h3 {
+   font-size: 30px;
+}
+
+.subtitle {
+   font-size: 24px;
 }
 
 ul {
@@ -54,6 +62,10 @@ a {
 
 .gray {
    color: #768490;
+}
+
+.border {
+   border: 1px solid #DBDBDD;
 }
 
 /* Area Float */
@@ -76,6 +88,12 @@ a {
 
 .btn.big {
    padding: 12px 30px;
+}
+
+.btn.white {
+   color: #000;
+   background-color: #fff;
+   border: 1px solid black;
 }
 
 /* ****** HEADER ****** */
@@ -158,10 +176,6 @@ header li a:hover{
    height: 80px;
 }
 
-.business-plane {
-   background-color: #B4D0E7;
-}
-
 .business-plane-top h2 {
    padding: 0 0 30px;
    font-size: 36px;
@@ -171,7 +185,7 @@ header li a:hover{
    padding-right: 20px;
 }
 
-.business-plane .clearfix {
+.business-plane-center .clearfix {
    padding: 40px 0;
 }
 
@@ -179,7 +193,7 @@ header li a:hover{
    width: calc(100% / 3 - 20px);
 }
 
-.column span {
+.business-plane-center span {
    padding: 10px 0;
    display: block;
 }
@@ -189,18 +203,13 @@ header li a:hover{
 }
 
 .column-title {
+   padding: 10px 0;
    font-size: 22px;
-   border: 1px solid #DBDBDD;
    text-align: center;
 }
 
 .column-content {
    padding: 30px;
-   border: 1px solid #DBDBDD;
-}
-
-.content-title h3 {
-   font-size: 30px;
 }
 
 .else a {
@@ -217,30 +226,7 @@ header li a:hover{
    display: block;
 }
 
-.plane-point h4 {
-   padding-bottom: 15px;
-   font-size: 24px;
-}
-
-.icon::before {
-   padding-right: 5px;
-   font-size: 25px;
-   vertical-align: middle;
-}
-
-.user.icon::before {
-   content: '\f007';
-}
-
-.archiving.icon::before {
-   content: '\f07c';
-}
-
-.function.icon::before {
-   content: '\f303';
-}
-
-.check.icon::before {
+.check::before {
    content: '\2714';
    color: #0061FF;
 }
@@ -250,18 +236,34 @@ header li a:hover{
    padding: 50px 0;
 }
 
-
 .business-plane-bottom {
-   height: 300px;
-   margin-bottom: 40px;
-   background-color: #004DCC; 
+   margin: 40px 0;
+}
+
+.business-plane-bottom .column-title {
+   padding: 10px 0;
 }
 
 /* Find Partner */
 .find-partner {
-   height: 400px;
    margin-bottom: 40px;
-   background-color: violet;
+}
+
+.find-partner img {
+   width: 55%;
+}
+
+.find-partner .caption {
+   width: 40%;
+   padding-top: 40px;
+}
+
+.find-partner .caption h3 {
+   margin: 20px 0;
+}
+
+.find-partner .caption p {
+   margin: 0 0 40px 0;
 }
 
 /* Business Explain */
