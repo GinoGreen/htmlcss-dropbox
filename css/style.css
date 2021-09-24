@@ -38,6 +38,10 @@ section {
    max-width: 1080px;
 }
 
+h2 {
+   font-size: 36px;
+}
+
 h3 {
    font-size: 30px;
 }
@@ -178,7 +182,6 @@ header li a:hover{
 
 .business-plane-top h2 {
    padding: 0 0 30px;
-   font-size: 36px;
 }
 
 .radiobox label {
@@ -268,24 +271,59 @@ header li a:hover{
 
 /* Business Explain */
 .business-explain {
-   height: 700px;
    margin-bottom: 40px;
-   background-color: tan;
 }
 
+.business-explain-top {
+   padding: 50px 0;
+}
+
+.business-explain-bottom .box h3{
+   padding-bottom: 40px;
+}
 .row {
-   margin: 20px 0;
+   margin-bottom: 80px;
 }
 
-.row .box {
-   height: 300px;
-   width: calc(100% / 3 - 60px);
-   background-color: peru;
+.row .box{
+   width: calc(100% / 3 - 20px);
 }
 
 .row .box:nth-child(2) {
    margin: 0 30px;
 }
+
+.box .bg {
+   height: 200px;
+   margin-bottom: 20px;
+   background-position: center;
+   background-size: cover;
+}
+
+.box .bg.img1 {
+   background-image: url('../img/business-feature-coordinate-it.png');
+}
+
+.box .bg.img2 {
+   background-image: url('../img/business-feature-integrations-it.png');
+}
+
+.box .bg.img3 {
+   background-image: url('../img/business-feature-multi-device.png');
+}
+
+.box .bg.img4 {
+   background-image: url('../img/business-feature-security.png');
+}
+
+.box .bg.img5 {
+   background-image: url('../img/business-feature-send-files-it.png');
+}
+
+.box .bg.img6 {
+   background-image: url('../img/business-feature-switching-tools.png');
+}
+
 
 /* Team Partner */
 .team-partner {
