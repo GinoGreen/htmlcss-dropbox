@@ -113,6 +113,7 @@ header {
    position: fixed;
    top: 0;
    background-color: #fff;
+   z-index: 999;
 }
 
 header ul li {
@@ -278,18 +279,19 @@ header li a:hover{
    padding: 50px 0;
 }
 
-.business-explain-bottom .box h3{
-   padding-bottom: 40px;
-}
-.row {
+.business-explain-bottom .row {
    margin-bottom: 80px;
 }
 
-.row .box{
+.business-explain-bottom .box h3{
+   padding-bottom: 40px;
+}
+
+.business-explain-bottom .row .box{
    width: calc(100% / 3 - 20px);
 }
 
-.row .box:nth-child(2) {
+.business-explain-bottom .row .box:nth-child(2) {
    margin: 0 30px;
 }
 
@@ -345,21 +347,43 @@ header li a:hover{
    background-color: #B4D0E7;
 }
 
-.team-partner-bottom > div {
+.team-partner-bottom .row > .square {
    width: calc(100% / 3);
-   height: 400px;
-}
-
-.team-partner-center {
+   height: 0;
+   padding-bottom: calc(99% / 3);
+   position: relative;
    background-color: lightgray;
+   border: 2px solid black;
 }
 
-.team-partner-left {
-   background-color: yellow;
+
+
+.row .square .box-partner {
+   width: 50%;
+   height: 50%;
+   padding: 60px;
+   position: absolute;
+   filter: invert(1);
 }
 
-.team-partner-right {
-   background-color: red;
+.up {
+   top: 0;
+}
+
+.dx {
+   right: 0;
+}
+
+.sx {
+   left: 0;
+}
+
+.down {
+   bottom: 0;
+}
+
+.designit {
+   background-color: #5D2C64;
 }
 
 /* ****** FOOTER ****** */
