@@ -102,7 +102,6 @@ a {
 .btn.white {
    color: #000;
    background-color: #fff;
-   border: 1px solid black;
 }
 
 /* ****** HEADER ****** */
@@ -186,6 +185,10 @@ header li a:hover{
    height: 80px;
 }
 
+.business-plane-top {
+   margin-bottom: 30px;
+}
+
 .business-plane-top h2 {
    padding: 0 0 30px;
 }
@@ -222,12 +225,16 @@ header li a:hover{
 }
 
 .content-description {
-   height: 1300px;
+   height: 1100px;
 }
 
 .content-description .btn {
    padding: 12px 20px;
    display: block;
+}
+
+.content-description .border {
+   width: 100px;
 }
 
 .check::before {
@@ -237,7 +244,7 @@ header li a:hover{
 
 
 .content-description .block {
-   padding: 50px 0;
+   margin: 50px 0;
 }
 
 .business-plane-bottom {
@@ -342,28 +349,51 @@ header li a:hover{
 }
 
 .team-partner-bottom {
-   height: 800px;
    margin-bottom: 50px;
    background-color: #B4D0E7;
 }
 
-.team-partner-bottom .row > .square {
-   width: calc(100% / 3);
+.team-partner-bottom .row .square {
+   width: 30%;
    height: 0;
    padding-bottom: calc(99% / 3);
    position: relative;
-   background-color: lightgray;
-   border: 2px solid black;
 }
 
-
+.team-partner-bottom .row .square-overflow {
+   width: 40%;
+   height: 32.5vw;
+   background-color: #F5F5F5;
+}
 
 .row .square .box-partner {
    width: 50%;
    height: 50%;
-   padding: 60px;
+   padding: 50px;
    position: absolute;
    filter: invert(1);
+}
+
+.row .square-overflow {
+   overflow: auto;
+}
+
+.row .square-overflow .container-80 {
+   margin: 50px auto;
+}
+
+.row .square-overflow img {
+   width: 250px;
+}
+
+.row .square-overflow .border {
+   width: 100px;
+   height: 0;
+   margin: 50px 0;
+}
+
+.row .square-overflow p {
+   padding-bottom: 50px;
 }
 
 .up {
@@ -384,6 +414,90 @@ header li a:hover{
 
 .designit {
    background-color: #5D2C64;
+}
+
+.arizona {
+   background-color: #9EF7D3;
+}
+
+.florida {
+   background-color: #E26C31;
+}
+
+.topps {
+   background-color: #06E3E2;
+}
+
+.bicycle {
+   background-color: #2AFDE0;
+}
+
+.hearst {
+   background-color: #4B2F18;
+}
+
+.lonely {
+   background-color: #F2DB7E;
+}
+
+.clear-channel {
+   background-color: #0127CF;
+}
+
+.team-partner-bottom .container-70 {
+   padding: 100px 0;
+}
+
+.team-partner-bottom .container-70 h2 {
+   width: 50%;
+   color: #61082C;
+}
+
+.team-partner-bottom .container-70 h2 {
+   width: 40%;
+}
+
+/* FAQ section  */
+.faq {
+   margin: 50px auto;
+}
+
+.faq h3 {
+   padding: 30px 0;
+}
+
+.faq .border {
+   margin: 30px auto;
+}
+
+.faq .ask a {
+   display: block;
+}
+
+.faq .ask span {
+   padding: 0 30px;
+}
+
+.faq .answer {
+   margin: 30px 0 0 0;
+   color: #72808D;
+   display: none;
+}
+
+.ask a span.hidden {
+   display: none;
+}
+
+.faq .ask:hover .answer {
+   display: block;
+}
+
+.faq .ask a:hover .hidden {
+   display: block;
+}
+
+.faq .ask a:hover .visible {
+   display: none;
 }
 
 /* ****** FOOTER ****** */
