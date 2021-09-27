@@ -261,11 +261,20 @@ header li a:hover{
 
 .business-plane-bottom .column-title {
    padding: 10px 0;
+   text-align: center;
+}
+
+.business-plane-bottom .row {
+   padding: 30px;
+}
+
+.business-plane-bottom .row p {
+   padding-top: 40px;
 }
 
 /* Find Partner */
 .find-partner {
-   margin-bottom: 40px;
+   margin: 160px auto;
 }
 
 .find-partner img {
@@ -283,6 +292,10 @@ header li a:hover{
 
 .find-partner .caption p {
    margin: 0 0 40px 0;
+}
+
+.find-partner .btn.big.white {
+   border: 1px solid #000;
 }
 
 /* Business Explain */
@@ -484,6 +497,7 @@ header li a:hover{
 }
 
 .faq .answer {
+   width: 80%;
    margin: 0  0 30px 0;
    color: #72808D;
    display: none;
