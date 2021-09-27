@@ -104,6 +104,14 @@ a {
    background-color: #fff;
 }
 
+.btn:hover {
+   background-color: #3A85FF;
+}
+
+.btn.white:hover {
+   background-color: #F2F2F2;
+}
+
 /* ****** HEADER ****** */
 header {
    min-width: 1300px;
