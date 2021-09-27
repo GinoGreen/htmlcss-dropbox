@@ -259,14 +259,26 @@ header .menu:hover ul {
    width: 100px;
 }
 
-.business-plane-center .check::before {
-   content: '\2714';
-   color: #0061FF;
+
+.business-plane-center ul li {
+   padding: 12px 0 12px 23px;
+}
+
+.business-plane-center ul li i {
+   margin-left: -22px;
 }
 
 
 .content-description .block {
    margin: 50px 0;
+}
+
+.content-description .subtitle {
+   padding-bottom: 35px;
+}
+
+.content-description .fa-check {
+   color: #0061FF;
 }
 
 .business-plane-bottom {
