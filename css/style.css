@@ -136,6 +136,20 @@ header li a:hover{
    border-bottom: 5px solid #000;
 }
 
+header .menu ul li {
+   display: block;
+}
+
+header .menu ul {
+   position: absolute;
+   top: 80px;
+   background-color: #FAFAFA;
+   display: none;
+}
+
+header .menu:hover ul {
+   display: block;
+}
 /* header left section  */
 .logo img {
    width: 155px;
@@ -233,7 +247,7 @@ header li a:hover{
 }
 
 .business-plane-center .content-description {
-   height: 1100px;
+   min-height: 1100px;
 }
 
 .content-description .btn {
