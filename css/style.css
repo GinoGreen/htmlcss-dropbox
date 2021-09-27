@@ -210,21 +210,21 @@ header li a:hover{
    display: block;
 }
 
-.column.standard {
+.business-plane-center .column.standard {
    margin: 0 30px;
 }
 
-.column-title {
+.business-plane-center .column-title {
    padding: 10px 0;
    font-size: 22px;
    text-align: center;
 }
 
-.column-content {
+.business-plane-center .column-content {
    padding: 30px;
 }
 
-.content-description {
+.business-plane-center .content-description {
    height: 1100px;
 }
 
@@ -233,11 +233,11 @@ header li a:hover{
    display: block;
 }
 
-.content-description .border {
+.business-plane-center .content-description .border {
    width: 100px;
 }
 
-.check::before {
+.business-plane-center .check::before {
    content: '\2714';
    color: #0061FF;
 }
@@ -498,3 +498,49 @@ header li a:hover{
 }
 
 /* ****** FOOTER ****** */
+footer {
+   margin-top: 150px;
+   color: #FFF;
+   background-color: #000;
+}
+
+footer .border {
+   width: 200px;
+}
+
+.footer-top {
+   padding: 120px 0;
+}
+
+.footer-top .float-left {
+   width: calc(100% / 5);
+}
+
+.footer-top h3 {
+   padding: 40px 0;
+}
+
+.footer-top ul li {
+   line-height: 50px;
+}
+
+.footer-top ul li a {
+   color: #FFF;
+}
+
+.footer-top ul li a:hover {
+   text-decoration: underline;
+}
+
+/* footer bottom  */
+.footer-bottom .language {
+   padding: 70px 0;
+   color: #72808D;
+   display: block;
+}
+
+.footer-bottom .language .icon-globe {
+   padding-right: 3px;
+   font-size: 25px;
+   vertical-align: middle;
+}
